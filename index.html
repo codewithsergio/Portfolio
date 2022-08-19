@@ -5,8 +5,267 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sergio Hernandez</title>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="/fontawesome-free-6.1.2-web/fontawesome-free-6.1.2-web/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a
+            class="myLinks"
+            href="https://www.linkedin.com/in/sergio-hernandez-b155071b6/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+            LinkedIn
+          </a>
+        </li>
+        <li>
+          <a
+            class="myLinks"
+            href="https://github.com/codewithsergio"
+            target="_blank"
+          >
+            <i class="fa-brands fa-github"></i>
+            Github</a
+          >
+        </li>
+        <li>
+          <a class="myLinks" href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            Contact</a
+          >
+        </li>
+        <li>
+          <a class="myLinks" href="SergioHernandezResume.pdf" target="_blank">
+            <i class="fa-solid fa-file"></i>
+            Resume</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div id="particles-js"></div>
+    <div class="topBack">
+      <h1 class="myname" data-aos="fade-up">
+        Hi, I'm <span>Sergio Hernandez</span>
+      </h1>
+      <p class="myDescription" data-aos="fade-up">
+        I'm a computational research assistant working with Matlab and QGIS. I'm
+        also a final year computer science student at California State
+        University, Northridge.
+      </p>
+    </div>
+
+    <!-- PROJECT SECTION -->
+
+    <div class="Projects">
+      <h2 class="portfolioTitle" data-aos="fade-up">
+        My <span>Projects</span>
+      </h2>
+      <div class="project" data-aos="fade-up">
+        <div class="projectDetails">
+          <h3>Project Management System</h3>
+          <p class="toolsUsed">React.js, Node.js ( Express ), SQL, MySQL</p>
+          <p>
+            Tracks employees and tasks they are assigned, and allows the user to
+            add, view, update, and delete employees. Users can also search for a
+            specific employee by name, id, position, or task.
+          </p>
+          <a
+            href="https://github.com/codewithsergio/Employee_CRUD_App"
+            target="_blank"
+          >
+            <button class="codeButton">
+              <i class="fa-brands fa-github"></i>
+              Code
+            </button>
+          </a>
+        </div>
+        <video class="videoplayers" autoplay loop>
+          <source src="ProjectVideo1.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="project" data-aos="fade-up">
+        <div class="projectDetails">
+          <h3>Hike Tracker</h3>
+          <p class="toolsUsed">
+            React.js, Firebase ( user athentication ), Geolocation API
+          </p>
+          <p>
+            Tracks the number of locations a user has visited, allowing them to
+            log in with their google email accounts so the program remembers
+            their data.
+          </p>
+          <a
+            href="https://github.com/codewithsergio/HikeTracker"
+            target="_blank"
+          >
+            <button class="codeButton">
+              <i class="fa-brands fa-github"></i>
+              Code
+            </button>
+          </a>
+          <a href="https://my-hikes-d702e.web.app/" target="_blank">
+            <button class="demoButton">Demo</button>
+          </a>
+        </div>
+        <video class="videoplayers" autoplay loop>
+          <source src="ProjectVideo2.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="project" data-aos="fade-up">
+        <div class="projectDetails">
+          <h3>Standard Deviation Calculator</h3>
+          <p class="toolsUsed">JavaScript ( MathJax ), HTML/CSS</p>
+          <p>
+            Takes in a set of numbers, calculates the standard deviation, mean,
+            and median, and lists the steps. Used MathJax to display math
+            equations with LaTex math notation.
+          </p>
+          <a
+            href="https://github.com/codewithsergio/DeviationCalculator"
+            target="_blank"
+          >
+            <button class="codeButton">
+              <i class="fa-brands fa-github"></i>
+              Code
+            </button>
+          </a>
+          <button class="demoButton">Demo</button>
+        </div>
+        <video class="videoplayers" autoplay loop>
+          <source src="ProjectVideo3.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="project" data-aos="fade-up">
+        <div class="projectDetails">
+          <h3>Solar Escape</h3>
+          <p class="toolsUsed">Unity, C#</p>
+          <p>
+            A 2D endless runner video game with multiple levels and keeps track
+            of your personal high score per level.
+          </p>
+          <button class="codeButton">
+            <i class="fa-brands fa-github"></i>
+            Code
+          </button>
+          <button class="demoButton">Download</button>
+        </div>
+        <video class="videoplayers" autoplay loop>
+          <source src="ProjectVideo4.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+
+    <!-- SKILLS SECTION -->
+
+    <div class="skillsSection">
+      <h2 class="mySkillsHeading">My <span>Skills</span></h2>
+      <ul class="skillsIcons">
+        <li>
+            <span class="iconify iconifySkills" data-icon="logos:java">
+                <span class="iconText">Java</span>
+              </span>
+        </li>
+        <li>
+            <span class="iconify iconifySkills" data-icon="logos:react">
+                <span class="iconText">React</span>
+              </span>
+        </li>
+        <li>
+            <span class="iconify iconifySkills" data-icon="logos:nodejs-icon">
+                <span class="iconText">Node.js</span>
+              </span>
+        </li>
+        <li>
+            <span class="iconify iconifySkills" data-icon="logos:javascript">
+                <span class="iconText">JavaScript</span>
+              </span>
+        </li>
+        <li>
+            <span class="iconify iconifySkills" data-icon="logos:mysql">
+                <span class="iconText">MySQL</span>
+              </span>
+        </li>
+        <li>
+            <span class="iconify iconifySkills" data-icon="logos:kotlin-icon">
+                <span class="iconText">Kotlin</span>
+              </span>
+        </li>
+        <li>
+            <span class="iconify iconifySkills" data-icon="logos:c-sharp">
+                <span class="iconText">C#</span>
+              </span>
+        </li>
+        <li>
+            <span
+            class="iconify iconifySkills"
+            data-icon="vscode-icons:file-type-html"
+          >
+            <span class="iconText">HTML</span>
+          </span>
+        </li>
+        <li>
+            <span
+            class="iconify iconifySkills"
+            data-icon="vscode-icons:file-type-css"
+          >
+            <span class="iconText">CSS</span>
+          </span>
+        </li>
+      </div>
+    </div>
+
+    <!-- CONTACT SECTION -->
+
+    <div class="contactMe">
+      <h2>Contact <span>Me</span></h2>
+    </div>
+    <div class="bottom" data-aos="fade-up">
+      <form action="https://formspree.io/f/xknenejd" method="POST">
+        <h2 id="contact">Send an <span>Email</span></h2>
+        <input type="text" name="name" placeholder="Name" required />
+        <input placeholder="Your Email" type="email" name="email" required />
+        <textarea placeholder="Message" name="message" required></textarea>
+        <!-- your other form fields go here -->
+        <button type="submit" class="demoButton">Send</button>
+      </form>
+    </div>
+
+    <!-- FOOTER SECTION -->
+
+    <div class="footerLinks">
+      <a
+        href="https://www.linkedin.com/in/sergio-hernandez-b155071b6/"
+        target="_blank"
+      >
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/codewithsergio" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="SergioHernandezResume.pdf" target="_blank">
+        <i class="fa-solid fa-file"></i>
+      </a>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="scripts/particles.js"></script>
+    <script src="scripts/app.js"></script>
+  </body>
 </html>
