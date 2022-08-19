@@ -305,6 +305,12 @@ p {
   color: dodgerblue;
   font-size: 5.5rem;
   padding-bottom: 1rem;
+  transition: 0.35s;
+}
+
+.card .fa-brands:hover,
+.card .fa-solid:hover {
+  transform: translateY(-1rem);
 }
 
 .contactMe a {
