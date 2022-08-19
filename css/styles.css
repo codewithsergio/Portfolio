@@ -213,6 +213,7 @@ p {
   width: 8rem;
   margin-bottom: 4rem;
   padding: 2rem;
+  transition: 0.3s;
 }
 
 .skillsIcons > .fa-brands {
@@ -442,6 +443,9 @@ footer {
   }
   .skillsIcons li {
     padding: 3rem;
+  }
+  .skillsIcons li:hover {
+    transform: scale(1.35);
   }
   .education {
     width: 50%;
