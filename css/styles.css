@@ -20,6 +20,21 @@ body {
   z-index: 1;
 }
 
+.topArrow {
+  position: fixed;
+  right: 3rem;
+  bottom: 3rem;
+  background-color: dodgerblue;
+  border-radius: 1rem;
+  width: 5rem;
+  height: 5rem;
+  z-index: 2;
+}
+
+.topArrow .iconify {
+  font-size: 5rem;
+}
+
 li .fa-brands {
   font-size: 2rem;
 }
@@ -40,7 +55,7 @@ span {
   height: 60vh;
   padding-top: 2rem;
   text-align: center;
-  background-color: #0d1117;
+  background-color: #21262d;
   color: white;
   clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 100% 84%);
 }
@@ -61,7 +76,7 @@ nav {
   top: 0;
   z-index: 2;
   padding: 0.5rem;
-  background-color: #0d1117;
+  background-color: #21262d;
   font-size: 1.5rem;
 }
 
@@ -104,6 +119,7 @@ p {
 .myLinks {
   display: inline-block;
   position: relative;
+  padding-bottom: 0.5rem;
 }
 
 .myLinks:after {
@@ -167,21 +183,36 @@ p {
   color: #0d1117;
 }
 
-.mySkillsHeading {
-  padding-top: 10rem;
+.skillsSection {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #21262d;
+  margin-bottom: 2rem;
+  clip-path: polygon(100% 0%, 0% 3%, 0% 100%, 100% 97%);
 }
 
-.skillsSection {
-  height: 50vh;
-  text-align: center;
-  background-color: #0d1117;
-  margin-bottom: 2rem;
+.mySkillsHeading {
+  margin-top: 10vh;
 }
 
 .skillsIcons {
-  display: grid;
-  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  margin: 0;
+  max-width: 70rem;
   grid-template-columns: repeat(3, 1fr);
+  padding: 10rem 0 10rem 0;
+}
+
+.skillsIcons li {
+  display: flex;
+  flex-direction: column;
+  width: 8rem;
+  margin-bottom: 4rem;
+  padding: 2rem;
 }
 
 .skillsIcons > .fa-brands {
@@ -190,16 +221,55 @@ p {
 }
 
 .iconifySkills {
-  font-size: 8rem;
+  font-size: 6rem;
   margin: auto;
 }
 
 .iconText {
-  font-size: 10rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: white;
 }
 
 .bottom {
   color: #0d1117;
+}
+
+.education {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  color: black;
+}
+
+.educationCard {
+  display: flex;
+  box-shadow: 0px 0px 10px 1px #e3e3e3;
+  padding: 5rem 2rem 2rem 2rem;
+  margin: 3rem 0 5rem 0;
+}
+
+.educationInfo {
+  text-align: left;
+  margin-top: 0;
+  margin-left: 1rem;
+  list-style-type: disc;
+}
+
+.educationInfo p {
+  line-height: 0.8;
+}
+
+.educationInfo li {
+  display: list-item;
+  font-size: 1.5rem;
+}
+
+.schoolPic {
+  width: 27%;
+  height: 27%;
+  max-width: 180px;
+  max-height: 180px;
 }
 
 .contactMe {
@@ -207,13 +277,46 @@ p {
   text-align: center;
 }
 
+.contactMe h2 {
+  margin-bottom: 3rem;
+}
+
+.contactCards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 25rem;
+  box-shadow: 0px 0px 10px 1px #e3e3e3;
+  border-radius: 0.25rem;
+  margin-bottom: 2rem;
+  height: 15rem;
+  padding: 3rem 0 3rem 0;
+}
+
+.card .fa-brands,
+.card .fa-solid {
+  color: dodgerblue;
+  font-size: 5.5rem;
+  padding-bottom: 1rem;
+}
+
+.contactMe a {
+  color: dodgerblue;
+}
+
 form {
   padding: 1rem 0 1rem 0;
   display: flex;
   flex-direction: column;
-  width: 80%;
   align-items: center;
   margin: auto;
+  width: 90%;
+  margin-top: 3rem;
   margin-bottom: 5rem;
   box-shadow: 0px 0px 10px 1px #e3e3e3;
   border-radius: 0.25rem;
@@ -333,10 +436,42 @@ footer {
   p {
     font-size: 2rem;
   }
+  .skillsSection {
+    clip-path: polygon(100% 0%, 0% 10%, 0% 100%, 100% 90%);
+  }
+  .skillsIcons li {
+    padding: 3rem;
+  }
+  .education {
+    width: 50%;
+  }
+  .educationInfo li {
+    font-size: 2rem;
+  }
+  .contactMe {
+    width: 60%;
+    margin: auto;
+  }
+  .contactCards {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .contactCards h3 {
+    font-size: 1.75rem;
+  }
+  .contactCards p {
+    font-size: 1.5rem;
+  }
+  .iconifySkills {
+    font-size: 8rem;
+  }
+  .iconText {
+    font-size: 1.5rem;
+  }
   button {
     padding: 1rem 2rem 1rem 2rem;
   }
   form {
-    width: 30%;
+    width: 35%;
   }
 }

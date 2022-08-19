@@ -173,67 +173,95 @@
     <!-- SKILLS SECTION -->
 
     <div class="skillsSection">
-      <h2 class="mySkillsHeading">My <span>Skills</span></h2>
-      <ul class="skillsIcons">
+      <h2 class="mySkillsHeading" data-aos="fade-in">My <span>Skills</span></h2>
+      <ul class="skillsIcons" data-aos="fade-up">
         <li>
-            <span class="iconify iconifySkills" data-icon="logos:java">
-                <span class="iconText">Java</span>
-              </span>
+            <span class="iconify iconifySkills" data-icon="logos:java"></span>
+            <span class="iconText">Java</span>
         </li>
         <li>
-            <span class="iconify iconifySkills" data-icon="logos:react">
-                <span class="iconText">React</span>
-              </span>
+            <span class="iconify iconifySkills" data-icon="logos:react"></span>
+            <span class="iconText">React</span>
         </li>
         <li>
-            <span class="iconify iconifySkills" data-icon="logos:nodejs-icon">
-                <span class="iconText">Node.js</span>
-              </span>
+            <span class="iconify iconifySkills" data-icon="logos:nodejs-icon"></span>
+            <span class="iconText">Node.js</span>
         </li>
         <li>
-            <span class="iconify iconifySkills" data-icon="logos:javascript">
-                <span class="iconText">JavaScript</span>
-              </span>
+            <span class="iconify iconifySkills" data-icon="logos:javascript"></span>
+            <span class="iconText">JavaScript</span>
         </li>
         <li>
-            <span class="iconify iconifySkills" data-icon="logos:mysql">
-                <span class="iconText">MySQL</span>
-              </span>
+            <span class="iconify iconifySkills" data-icon="logos:mysql"></span>
+            <span class="iconText">MySQL</span>
         </li>
         <li>
-            <span class="iconify iconifySkills" data-icon="logos:kotlin-icon">
-                <span class="iconText">Kotlin</span>
-              </span>
+            <span class="iconify iconifySkills" data-icon="logos:kotlin-icon"></span>
+            <span class="iconText">Kotlin</span>
         </li>
         <li>
-            <span class="iconify iconifySkills" data-icon="logos:c-sharp">
-                <span class="iconText">C#</span>
-              </span>
+            <span class="iconify iconifySkills" data-icon="logos:c-sharp"></span>
+            <span class="iconText">C#</span>
         </li>
         <li>
             <span
             class="iconify iconifySkills"
             data-icon="vscode-icons:file-type-html"
-          >
-            <span class="iconText">HTML</span>
-          </span>
+          ></span>
+          <span class="iconText">HTML</span>
         </li>
         <li>
             <span
             class="iconify iconifySkills"
             data-icon="vscode-icons:file-type-css"
-          >
-            <span class="iconText">CSS</span>
-          </span>
+          ></span>
+          <span class="iconText">CSS</span>
         </li>
+      </div>
+    </div>
+
+    <!-- EDUCATION SECTION -->
+    <div class="education">
+      <h2 data-aos="fade-in">My <span>Education</span></h2>
+      <div class="educationCard" data-aos="fade-up">
+        <img class="schoolPic" src="images/CSUNSLogo.png" alt="California State University, Northridge">
+        <ul class="educationInfo">
+          <p>Expected Graduation Date: 2023</p>
+          <p>California State University, Northridge - Bachelor of Science</p>
+          <p>GPA: 3.69</p>
+          <li>Majoring in Computer Science</li>
+          <li>Minor in Mathematics</li>
+        </ul>
       </div>
     </div>
 
     <!-- CONTACT SECTION -->
 
-    <div class="contactMe">
+    <div class="contactMe" data-aos="fade-in">
       <h2>Contact <span>Me</span></h2>
+      <div class="contactCards">
+        <div class="card">
+          <i class="fa-solid fa-envelope"></i>
+          <h3>Email</h3>
+          <p>ehernandez.sergio@gmail.com</p>
+        </div>
+        <div class="card">
+          <i class="fa-brands fa-github"></i>
+          <h3>GitHub</h3>
+          <a href="https://github.com/codewithsergio" target="_blank">
+            <p>codewithsergio</p>
+          </a>
+        </div>
+        <div class="card">
+          <i class="fa-brands fa-linkedin"></i>
+          <h3>LinkedIn</h3>
+          <a href="https://www.linkedin.com/in/sergio-hernandez-b155071b6/" target="_blank">
+            <p>sergio-hernandez-b155071b6/</p>
+          </a>
+        </div>
+      </div>
     </div>
+
     <div class="bottom" data-aos="fade-up">
       <form action="https://formspree.io/f/xknenejd" method="POST">
         <h2 id="contact">Send an <span>Email</span></h2>
@@ -261,6 +289,12 @@
         <i class="fa-solid fa-file"></i>
       </a>
     </div>
+
+    <!-- BACK TO TOP ARROW -->
+    <a href="#" class="topArrow">
+      <span class="iconify iconifySkills" data-icon="bx:up-arrow-alt"></span>
+    </a>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
