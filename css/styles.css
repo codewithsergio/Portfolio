@@ -257,12 +257,13 @@ p {
 }
 
 .educationInfo p {
-  line-height: 0.8;
+  line-height: 1.2;
 }
 
 .educationInfo li {
   display: list-item;
   font-size: 1.5rem;
+  list-style-position: inside;
 }
 
 .schoolPic {
@@ -444,6 +445,9 @@ footer {
   }
   .education {
     width: 50%;
+  }
+  .educationInfo p {
+    line-height: 0.5;
   }
   .educationInfo li {
     font-size: 2rem;
