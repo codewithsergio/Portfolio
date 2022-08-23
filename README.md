@@ -1,3 +1,3 @@
 # Portfolio
 
-Website in the making
+My portfolio website that showcases my favorite projects I have worked on.

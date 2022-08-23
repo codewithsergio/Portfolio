@@ -8,7 +8,7 @@ body {
   font-family: Inter, Arial, Helvetica, sans-serif;
   color: white;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.25;
   padding: 0;
 }
 
@@ -156,6 +156,7 @@ p {
 .videoplayers {
   display: inline;
   margin: auto;
+  margin-top: 0;
   border-radius: 0.5rem;
   border: 0.3rem #dcdcdc solid;
   width: 80%;
@@ -258,7 +259,7 @@ p {
 }
 
 .educationInfo p {
-  line-height: 1.2;
+  line-height: 1.25;
 }
 
 .educationInfo li {
@@ -457,7 +458,7 @@ footer {
     width: 50%;
   }
   .educationInfo p {
-    line-height: 0.5;
+    line-height: 1.25;
   }
   .educationInfo li {
     font-size: 2rem;
@@ -481,6 +482,9 @@ footer {
   }
   .iconText {
     font-size: 1.5rem;
+  }
+  .codeButton {
+    margin-bottom: 2rem;
   }
   button {
     padding: 1rem 2rem 1rem 2rem;
