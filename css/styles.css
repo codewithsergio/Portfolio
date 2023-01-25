@@ -167,6 +167,23 @@ p {
   text-align: center;
 }
 
+#mp3Image {
+  width: 80%;
+  margin: auto;
+}
+
+.gitmuneydetails {
+}
+
+.git_muney_image_box {
+  display: flex;
+  justify-content: center;
+}
+
+.git_muney_image {
+  width: 20%;
+}
+
 .videoplayers {
   display: inline;
   margin: auto;
@@ -261,15 +278,16 @@ p {
 
 .educationCard {
   display: flex;
+  justify-content: space-evenly;
   box-shadow: 0px 0px 10px 1px #e3e3e3;
-  padding: 5rem 2rem 2rem 2rem;
+  padding: 3rem 1rem 1rem 1rem;
   margin: 3rem 0 5rem 0;
 }
 
 .educationInfo {
   text-align: left;
   margin-top: 0;
-  margin-left: 1rem;
+  width: 70%;
   list-style-type: disc;
 }
 
@@ -280,6 +298,7 @@ p {
 .educationInfo li {
   display: list-item;
   font-size: 1.5rem;
+  margin-bottom: 1rem;
   list-style-position: inside;
 }
 
@@ -302,6 +321,10 @@ p {
 .contactCards {
   display: flex;
   flex-wrap: wrap;
+}
+
+.accentColor {
+  color: var(--accent-color);
 }
 
 .card {
@@ -372,6 +395,10 @@ button {
 }
 
 .codeButton {
+  margin-top: 2rem;
+}
+
+.codeButton {
   background-color: white;
   color: var(--accent-color);
 }
@@ -387,7 +414,7 @@ button {
 }
 
 .demoButton:hover {
-  background-color: rgb(1, 130, 228);
+  background-color: rgb(108, 181, 254);
   border-color: rgb(1, 130, 228);
 }
 
@@ -456,6 +483,9 @@ footer {
     flex-direction: row;
     width: 60%;
   }
+  #mp3Image {
+    width: 60%;
+  }
   .videoplayers {
     width: 60%;
   }
@@ -479,6 +509,7 @@ footer {
   }
   .educationInfo li {
     font-size: 2rem;
+    margin-bottom: 1rem;
   }
   .contactMe {
     width: 60%;
