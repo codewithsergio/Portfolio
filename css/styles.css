@@ -173,12 +173,13 @@ p {
 }
 
 .git_muney_image_box {
-  display: flex;
-  justify-content: center;
+  margin: auto;
+  width: 80%;
 }
 
 .git_muney_image {
-  width: 20%;
+  max-width: 100%;
+  height: auto;
 }
 
 .videoplayers {
@@ -482,6 +483,14 @@ footer {
   }
   #mp3Image {
     width: 60%;
+  }
+  .git_muney_image_box {
+    width: 400%;
+  }
+
+  .git_muney_image {
+    max-width: 100%;
+    height: auto;
   }
   .videoplayers {
     width: 60%;
