@@ -19,11 +19,13 @@ body {
 
 #particles-js {
   position: absolute;
-  height: 60vh;
+  height: 45vh;
   width: 100%;
   box-sizing: border-box;
   z-index: 1;
 }
+
+/* MOBILE VIEW */
 
 .myDescription {
   margin: 0;
@@ -164,6 +166,7 @@ p {
 }
 
 .portfolioTitle {
+  font-size: clamp(2rem, 3vw, 3.5rem);
   margin-top: 5rem;
   margin-bottom: 5rem;
   text-align: center;
@@ -176,18 +179,16 @@ p {
 
 .git_muney_image_box {
   margin: auto;
-  width: 80%;
+  width: 60%;
 }
 
 .git_muney_image {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
 }
 
 .videoplayers {
   display: inline;
   margin: auto;
-  margin-top: 0;
   border-radius: 0.5rem;
   border: 0.3rem #dcdcdc solid;
   width: 80%;
@@ -452,6 +453,8 @@ footer {
   font-size: 3rem;
 }
 
+/* LAPTOP VIEW */
+
 @media screen and (min-width: 1025px) {
   body {
     font-size: 2.4rem;
@@ -478,21 +481,24 @@ footer {
   }
   .project {
     flex-direction: row;
-    width: 60%;
+    width: 100rem;
+    margin: auto;
+  }
+  .projectDetails {
+    padding: 2rem;
   }
   #mp3Image {
-    width: 60%;
+    width: 70rem;
   }
   .git_muney_image_box {
-    width: 400%;
+    width: 70rem;
   }
 
   .git_muney_image {
-    max-width: 100%;
-    height: auto;
+    width: 70rem;
   }
   .videoplayers {
-    width: 60%;
+    width: 70rem;
   }
   p {
     font-size: 2rem;
@@ -544,5 +550,31 @@ footer {
   }
   form {
     width: 35%;
+  }
+}
+
+/* LARGE DESKTOP VIEW */
+@media screen and (min-width: 1600px) {
+  .project {
+    flex-direction: row;
+    width: 150rem;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
+  .projectDetails {
+    padding: 2rem;
+  }
+  #mp3Image {
+    width: 70rem;
+  }
+  .git_muney_image_box {
+    width: 70rem;
+  }
+
+  .git_muney_image {
+    width: 70rem;
+  }
+  .videoplayers {
+    width: 70rem;
   }
 }
