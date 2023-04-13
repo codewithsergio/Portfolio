@@ -67,11 +67,10 @@ span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 60vh;
+  height: 45vh;
   text-align: center;
   background-color: var(--back-color);
   color: white;
-  clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 100% 97%);
 }
 
 .myname {
@@ -458,11 +457,8 @@ footer {
     font-size: 2.4rem;
   }
   .myDescription {
-    width: 30%;
+    width: 40%;
     margin: 0;
-  }
-  .topBack {
-    clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 100% 86%);
   }
   nav {
     font-size: 2rem;
