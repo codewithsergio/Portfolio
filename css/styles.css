@@ -173,6 +173,18 @@ p {
   text-align: center;
 }
 
+#pennymac-image {
+  width: clamp(20rem, 3vw, 25rem);
+  height: fit-content;
+  margin: 3rem;
+}
+
+#csun-exp-img {
+  width: clamp(10rem, 3vw, 15rem);
+  height: fit-content;
+  margin: 3rem;
+}
+
 #mp3Image {
   width: 80%;
   margin: auto;
@@ -199,6 +211,32 @@ p {
 .toolsUsed {
   color: rgb(135, 135, 135);
   margin: auto;
+}
+
+.ExperienceSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #0d1117;
+}
+
+.experienceTitle {
+  font-size: clamp(2rem, 3vw, 3.5rem);
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+#experienceCard {
+  width: 80%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.term {
+  color: gray;
+  font-style: italic;
+  font-size: small;
 }
 
 .project {
@@ -290,7 +328,7 @@ p {
 .educationInfo {
   text-align: left;
   margin-top: 0;
-  width: 70%;
+  width: 95%;
   list-style-type: disc;
 }
 
@@ -483,6 +521,14 @@ footer {
   h3 {
     font-size: 2.5rem;
   }
+  #experienceCard {
+    flex-direction: row;
+    width: 60%;
+    padding-right: 5rem;
+  }
+  .educationInfo {
+    width: 100%;
+  }
   .portfolioTitle {
     text-align: left;
   }
@@ -490,6 +536,18 @@ footer {
     flex-direction: row;
     width: 100rem;
     margin: auto;
+  }
+  #pennymac-image {
+    width: clamp(20rem, 3vw, 25rem);
+    height: fit-content;
+    margin: auto;
+    margin: 3rem;
+  }
+  #csun-exp-img {
+    width: clamp(10rem, 3vw, 15rem);
+    height: fit-content;
+    margin: 3rem;
+    margin-right: 13rem;
   }
   .projectDetails {
     padding: 2rem;
@@ -576,6 +634,29 @@ footer {
   }
   .image_box {
     width: 70rem;
+  }
+
+  #pennymac-image {
+    width: clamp(20rem, 3vw, 25rem);
+    height: fit-content;
+    margin: auto;
+    margin: 4rem;
+  }
+
+  #csun-exp-img {
+    width: clamp(10rem, 3vw, 15rem);
+    height: fit-content;
+    margin: 3rem;
+    margin-right: 15rem;
+  }
+
+  #experienceCard {
+    width: 60%;
+  }
+
+  .titleAndTerm {
+    display: flex;
+    justify-content: space-between;
   }
 
   .project_image {
