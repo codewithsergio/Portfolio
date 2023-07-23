@@ -1,5 +1,9 @@
 /* MOBILE VIEW */
 
+.ExperienceCompany {
+  font-weight: 700;
+}
+
 #pennymac-image {
   width: clamp(20rem, 3vw, 25rem);
   height: fit-content;
