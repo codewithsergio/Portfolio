@@ -35,7 +35,7 @@
 }
 
 .schoolPic {
-  width: 15rem;
+  width: 10rem;
   margin: auto;
 }
 
@@ -81,6 +81,10 @@
   .educationInfo li {
     font-size: 2rem;
     margin-bottom: 1rem;
+  }
+  .schoolPic {
+    width: 15rem;
+    margin: auto;
   }
 }
 
