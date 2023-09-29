@@ -65,7 +65,7 @@
   }
   #csun-exp-img {
     width: clamp(10rem, 3vw, 15rem);
-    height: fit-content;
+    height: auto;
     margin-left: 6rem;
     margin-right: 6rem;
   }
@@ -102,14 +102,14 @@
   }
   #pennymac-image {
     width: clamp(20rem, 3vw, 25rem);
-    height: fit-content;
+    height: auto;
     margin: auto;
     margin: 4rem;
   }
 
   #csun-exp-img {
     width: clamp(10rem, 3vw, 15rem);
-    height: fit-content;
+    height: auto;
     margin-left: 9rem;
     margin-right: 9rem;
   }
