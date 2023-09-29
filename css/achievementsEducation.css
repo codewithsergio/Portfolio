@@ -54,15 +54,12 @@
     width: 60%;
     padding-right: 5rem;
   }
-  #experienceCard section:first-child {
-    align-items: flex-start; /* new */
-  }
   .educationCard {
     padding: 3rem 4rem 1rem 4rem;
   }
   #pennymac-image {
     width: clamp(20rem, 3vw, 25rem);
-    height: fit-content;
+    height: auto;
     margin-left: 1rem;
     margin-right: 1rem;
   }
