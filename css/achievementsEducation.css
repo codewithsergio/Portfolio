@@ -16,6 +16,10 @@
   margin: 3rem 0 5rem 0;
 }
 
+.educationCard section:first-child {
+  align-items: flex-start; /* new */
+}
+
 .educationInfo {
   text-align: left;
   margin-top: 0;
