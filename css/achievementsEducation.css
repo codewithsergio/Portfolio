@@ -16,10 +16,6 @@
   margin: 3rem 0 5rem 0;
 }
 
-.educationCard section:first-child {
-  align-items: flex-start; /* new */
-}
-
 .educationInfo {
   text-align: left;
   margin-top: 0;
@@ -57,6 +53,9 @@
     flex-direction: row;
     width: 60%;
     padding-right: 5rem;
+  }
+  #experienceCard section:first-child {
+    align-items: flex-start; /* new */
   }
   .educationCard {
     padding: 3rem 4rem 1rem 4rem;
