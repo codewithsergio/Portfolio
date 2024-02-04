@@ -23,6 +23,14 @@
   list-style-type: disc;
 }
 
+.accomplishmentTitle{
+  font-weight: 700;
+}
+
+.accomplishmentTagline{
+  font-style: italic;
+}
+
 .educationInfo p {
   line-height: 1.25;
 }

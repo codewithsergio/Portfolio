@@ -26,7 +26,7 @@ body {
 }
 
 #amazon{
-  color: #ffa41b;
+  color: #fca21b;
 }
 
 /* MOBILE VIEW */
@@ -99,7 +99,7 @@ nav {
   z-index: 2;
   padding: 0.5rem;
   background-color: #1f2124;
-  font-size: 1.3rem;
+  font-size: 1.8rem;
 }
 
 ul {
@@ -141,7 +141,7 @@ p {
 .myLinks {
   display: inline-block;
   position: relative;
-  padding-bottom: 0.5rem;
+  padding: 0 0 0.5rem 0;
 }
 
 .myLinks:after {
@@ -175,13 +175,10 @@ p {
   color: white;
 }
 
-.bottom {
-  color: #0d1117;
-}
-
 .contactMe {
   color: black;
   text-align: center;
+  margin-bottom: 5rem;
 }
 
 .contactMe h2 {
@@ -272,10 +269,6 @@ button {
   transition: all ease-in-out 0.35s;
 }
 
-#contact {
-  margin: 3rem 0rem 3rem 0;
-}
-
 footer {
   color: #21262d;
 }
@@ -321,7 +314,9 @@ footer {
   h2 {
     font-size: 3.5rem;
   }
-
+  .myLinks {
+    padding: 0 2rem 0.5rem 2rem;
+  }
   h3 {
     font-size: 2.5rem;
   }
@@ -331,6 +326,7 @@ footer {
   .contactMe {
     width: 60%;
     margin: auto;
+    margin-bottom: 4rem;
   }
   .contactCards {
     flex-direction: row;
