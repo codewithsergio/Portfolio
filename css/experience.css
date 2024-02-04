@@ -2,12 +2,18 @@
 
 .ExperienceCompany {
   font-weight: 700;
+  margin: 0;
 }
-
 #pennymac-image {
   width: clamp(20rem, 3vw, 25rem);
   height: fit-content;
   margin: 3rem;
+}
+
+#amazon-image {
+  width: clamp(15rem, 3vw, 20rem);
+  height: fit-content;
+  margin: 6rem;
 }
 
 #csun-exp-img {

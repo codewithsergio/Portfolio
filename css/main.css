@@ -25,6 +25,10 @@ body {
   z-index: 1;
 }
 
+#amazon{
+  color: #ffa41b;
+}
+
 /* MOBILE VIEW */
 
 .myDescription {
