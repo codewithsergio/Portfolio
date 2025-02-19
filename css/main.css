@@ -69,6 +69,11 @@ span {
   color: var(--accent-color);
 }
 
+span.bold {
+  color: black;
+  font-weight: bold;
+}
+
 .topBack {
   display: flex;
   flex-direction: column;
