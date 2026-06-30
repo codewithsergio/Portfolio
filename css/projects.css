@@ -38,12 +38,12 @@
   margin: auto;
   border-radius: 0.5rem;
   border: 0.3rem #dcdcdc solid;
-  width: 80%;
+  width: 90%;
 }
 
 .image_box {
   margin: auto;
-  width: 60%;
+  width: 40rem;
 }
 
 .codeButton {
